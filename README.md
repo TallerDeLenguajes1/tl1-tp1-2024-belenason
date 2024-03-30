@@ -1,5 +1,6 @@
 ## TP1
-2.a) El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto, y así no sean rastreados.
+### Ejercicio 2.a 
+El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto, y así no sean rastreados.
 Es conveniente usarlo porque evita que se suban archivos innecesarios al repositorio remoto que ocupan lugar o que entorpecen el trabajo. 
 Se debe hacer cuando nos encontramos con artefactos de compilación y archivos generados por el equipo que pueden derivarse de tu fuente de repositorios o que no deberían confirmarse por algún otro motivo (como un archivo donde tengas contraseñas de configuración ya sea de correo electrónico u otras configuraciones de servidor), además de que ocuparían lugar innecesariamente en este. 
 Algunos ejemplos son:
@@ -14,3 +15,6 @@ Las entradas de este archivo también pueden seguir un patrón coincidente:
 - "*" se utiliza como una coincidencia comodín.
 - "/" se usa para ignorar las rutas relativas al archivo .gitignore.
 - "#" es usado para agregar comentarios
+
+### Ejercicio 3.e 
+Veo una carpeta con archivos de visual studio code que están relacionados con el compilador, y el ejecutable que se generó de "tp1_1" también considero que no es necesario.
